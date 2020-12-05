@@ -1,0 +1,58 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Space Mono', monospace;
+}
+
+button {
+    background-color: black;
+    color: white;
+    padding:  1.25rem 2rem;
+}
+
+footer {
+  text-align: center;
+}
+
+header {
+  padding: 1rem;
+}
+
+h1 {
+    font-size: 4.6em;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  margin: 4rem 2rem;
+}
+
+.main-text {
+    margin: 1rem;
+    
+}
+
+.title-text {
+  font-family: 'Inconsolata', monospace;
+}
+
+.image {
+  width: 80vw;
+}
+
+@media screen and (min-width: 800px) {
+  main {
+    flex-direction: row;
+  }
+
+  .image {
+    width: 40vw;
+  }
+
+  .main-message {
+      font-size: 1.2em;
+      width: 20vw;
+  }
+}
