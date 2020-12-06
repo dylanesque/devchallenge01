@@ -1,37 +1,37 @@
 body {
   box-sizing: border-box;
+  height: 100vh;
   margin: 0;
   padding: 0;
   font-family: 'Space Mono', monospace;
+  width: 100vw;
 }
 
 button {
-    background-color: black;
-    color: white;
-    padding:  1.25rem 2rem;
+  background-color: black;
+  color: white;
+  padding: 1.25rem 2rem;
 }
 
 footer {
   text-align: center;
+  width: 100%;
 }
 
 header {
   padding: 1rem;
-}
-
-h1 {
-    font-size: 4.6em;
+  width: 100%;
 }
 
 main {
   display: flex;
   flex-direction: column;
   margin: 4rem 2rem;
+  width: 90%;
 }
 
 .main-text {
-    margin: 1rem;
-    
+  margin: 1rem;
 }
 
 .title-text {
@@ -39,20 +39,27 @@ main {
 }
 
 .image {
-  width: 80vw;
+  height: 79px;
+  width: 197px;
 }
 
 @media screen and (min-width: 800px) {
+
+  h1 {
+  font-size: 3em;
+}
   main {
     flex-direction: row;
   }
 
   .image {
-    width: 40vw;
+    height: 434px;
+    width: 539px;
+    margin: 3rem;
   }
 
   .main-message {
-      font-size: 1.2em;
-      width: 20vw;
+    font-size: 1.2em;
+    width: 20vw;
   }
 }
